@@ -11,7 +11,7 @@ app.listen( 4500 , () => {
 
 app.get('/', (req, res) => {
     res.json({
-        "grafica": {
+        {
             "facebook": 2700,
             "youtube": 2000,
             "whatsapp": 1400,
