@@ -11,12 +11,12 @@ app.listen( 4500 , () => {
 
 app.get('/', (req, res) => {
     res.json({
-        {
+        
             "facebook": 2700,
             "youtube": 2000,
             "whatsapp": 1400,
             "facebook-messenger": 1350,
             "instagram": 1123
-        }
+        
     })
 })
