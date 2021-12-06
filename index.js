@@ -1,9 +1,9 @@
 const express = require('express');
 const cors = require('cors');
 
-app.use ( cors() );
-
 const app = express();
+
+app.use ( cors() );
 
 app.listen( 4500 , () => {
     console.log('servidor corriendo en puerto 4500')
